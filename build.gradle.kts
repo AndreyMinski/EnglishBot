@@ -14,4 +14,5 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.telegram:telegrambots:5.2.0")
 }
