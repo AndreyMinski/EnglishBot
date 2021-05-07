@@ -10,7 +10,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 public class SkeletonController extends TelegramWebhookBot {
     @RequestMapping("${token}")
     public String hello() {
-        return "Hello, world!";
+        return "Hello, world!!!";
     }
 
     @Override
